@@ -1,0 +1,26 @@
+.cover {
+    margin: 92px auto 0;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1184px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+
+.cover:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 767px) {
+    .cover {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover {
+      max-width: 1024px;  
+    }
+}
