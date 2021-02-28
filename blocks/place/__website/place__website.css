@@ -6,6 +6,6 @@
 
 @media (max-width: 767px) {
     .place__website {
-        display: none;
+        padding-left: 16px;
     }
 }

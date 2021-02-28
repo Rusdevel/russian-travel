@@ -15,18 +15,9 @@
     opacity: 0.7;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .header__language {
         font-size: 18px;
         line-height: 20px;
     }
-}
-
-@media (max-width:374px) {
-    .header__language {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-
 }
