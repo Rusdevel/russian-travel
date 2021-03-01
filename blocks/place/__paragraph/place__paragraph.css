@@ -1,6 +1,6 @@
 .place__paragraph {
     max-width: 484px;
-    margin: 0;
+    margin: 26px 0 0 0;
     font-weight: normal;
     font-size: 18px;
     line-height: 29.34px;
@@ -8,19 +8,17 @@
     display: block;
 }
 
-.place__paragraph:last-child {
-    margin-top: 26px;
+.place__paragraph:first-child {
+    margin-top: 0;
 }
 
 @media (max-width: 767px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26.08px;
-    }
-
-    .place__paragraph:last-child {
         margin-top: 25px;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {

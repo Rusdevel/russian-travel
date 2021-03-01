@@ -4,7 +4,7 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    height: 740px;
+    min-height: 740px;
     max-width: 1184px;
     background-color: rgba(42, 44, 47, 0.3);
     background-blend-mode: multiply;
@@ -12,23 +12,23 @@
     text-align: center;
 }
 .cover:hover {
-    opacity: 0.8;
+    background-color: rgba(42, 44, 47, 0.8);
 }
 @media (max-width: 1024px) {
     .cover {
-      height: 640px;
+      min-height: 640px;
       max-width: 1024px;  
     }
 }
 @media (max-width: 770px) {
     .cover {
-        height: 480px;
+        min-height: 480px;
         margin-top: 48px;
     }
 }
 @media (max-width: 330px) {
     .cover {
-        height: 200px;
+        min-height: 200px;
         margin-top: 48px;
     }
 }
